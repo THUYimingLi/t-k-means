@@ -5,14 +5,14 @@ This is the implementation of our paper [t-k-means: A Robust and Stable k-means 
 # Citation
 If our work is useful for your research, please cite our paper as follows:
 
-'''
+```
 @inproceedings{li2021t,
   title={t-k-means: A Robust and Stable k-means Variant}
   author={Li, Yiming and Zhang, Yang and Tang, Qingtao and Huang, Weipeng and Jiang, Yong and Xia, Shu-Tao},
   booktitle={ICASSP},
   year={2021}
 }
-'''
+```
 
 # Description of Main Codes
 * **main.m**: test algorithms on a specified dataset and generate results.
@@ -29,9 +29,9 @@ If our work is useful for your research, please cite our paper as follows:
 
 # Evaluation
 run 
-'''
+```
 main.m
-'''
-with different parameters and method names to generate needed results.
+```
+with different parameters (i.e., data_version, method_count = 2, exp_count = 10) and method names to generate needed results.
 
 
