@@ -14,7 +14,7 @@ If our work is useful for your research, please cite our paper as follows:
 }
 '''
 
-# Description of main codes
+# Description of Main Codes
 * **main.m**: test algorithms on a specified dataset and generate results.
 * **gmmCluster.m**: the implement of GMM algorithm.
 * **tmmCluster.m**: the implement of TMM algorithm.
@@ -28,3 +28,10 @@ If our work is useful for your research, please cite our paper as follows:
 * **plot_loss.m**: loss visualization.
 
 # Evaluation
+run 
+'''
+main.m
+'''
+with different parameters and method names to generate needed results.
+
+
