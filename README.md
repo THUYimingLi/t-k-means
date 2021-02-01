@@ -32,6 +32,6 @@ run
 ```
 main.m
 ```
-with different parameters (i.e., data_version, method_count = 2, exp_count = 10) and method names to generate needed results.
+with different parameters (i.e., data_version, method_count, and exp_count) and method names to generate needed results.
 
 
