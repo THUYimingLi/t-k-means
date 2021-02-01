@@ -1,0 +1,12 @@
+figure;
+d = -5:0.01:5;
+l1 = abs(d);
+l2 = d.^2;
+logl2 = log(1+d.^2);
+plot(d,l1,'g:','linewidth',2); hold on;
+plot(d,l2,'r--','linewidth',2); hold on;
+plot(d,logl2,'b','linewidth',2); hold on;
+h = legend('L1-loss (k-medians)','L2-loss (k-means)','log L2-loss (t-k-means)');
+set(h,'Fontsize',15);
+xlabel('distance between x_n and \mu_n','fontsize', 25);
+ylabel('loss value','fontsize', 25);
